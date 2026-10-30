@@ -43,7 +43,7 @@ Intel does not support custom resolutions on internal laptop panels. `crt` refus
 No installs, no NuGet, no Node. The build uses the in-box .NET Framework compiler.
 
 ```powershell
-cd "C:\Users\Rafandra Aydin\Documents\Wimmboo\Custom-Resolution-Tool"
+cd "~\Documents\Wimmboo\Custom-Resolution-Tool"
 powershell -ExecutionPolicy Bypass -File .\build.ps1
 ```
 
@@ -66,7 +66,7 @@ Press `Win`, type `PowerShell`, and open it.
 ### 2. Go to the project folder
 
 ```powershell
-cd "C:\Users\Rafandra Aydin\Documents\Wimmboo\Custom-Resolution-Tool"
+cd "~\Documents\Wimmboo\Custom-Resolution-Tool"
 ```
 
 ### 3. List your displays
@@ -370,7 +370,7 @@ If `--display` is omitted, `crt` prefers the first external display.
 The recommended sequence:
 
 ```powershell
-cd "C:\Users\Rafandra Aydin\Documents\Wimmboo\Custom-Resolution-Tool"
+cd "~\Documents\Wimmboo\Custom-Resolution-Tool"
 .\bin\crt.exe list
 .\bin\crt.exe add 1440x1080 --display 1
 .\bin\crt.exe modes --display 1 | Select-String "1440x1080"
